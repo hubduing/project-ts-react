@@ -1,0 +1,103 @@
+$colorBlue: #3771C8;
+$colorWhite: white;
+$colorLightGray: #E8E8E8;
+$colorComments: #555555;
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__stars {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 8px 28px;
+        color: $colorComments;
+        background: $colorLightGray;
+        border: 1px solid ;
+        box-sizing: border-box;
+        border-radius: 8px;
+        margin: 0 40px 40px 0;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover {
+            color: $colorWhite;
+            background: $colorBlue;
+        }
+    }
+    &__box {
+        display: flex;
+    }
+}
+.view__all {
+    cursor: pointer;
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background: $colorBlue;
+        left: 0;
+        bottom: -5px;
+    }
+}
+.hotels {
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__card {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 auto;
+        border: 1px solid #E8E8E8;
+        box-sizing: border-box;
+        border-radius: 16px;
+        max-width: 32%;
+        &:last-child {
+            margin-right: 0;
+        }
+        & h4 {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        & p {
+            font-size: 14px;
+            line-height: 24px;
+            margin: 0 0 24px 0;
+            flex: 1;
+        }
+        & a {
+            display: block;
+        }
+    }
+}
+.details {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    & p {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0;
+        & b {
+            color: colorBlue;
+        }
+    }
+    & a {
+        display: inline-block;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: $colorWhite;
+        padding: 5px 15px;
+        background: $colorBlue;
+        border-radius: 4px;
+    }
+}

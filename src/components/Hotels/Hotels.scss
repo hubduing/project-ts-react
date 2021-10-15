@@ -1,0 +1,48 @@
+$colorRed: #C9453B;
+$colorWhite: white;
+.info {
+  margin-bottom: 40px;
+  max-width: 50%;
+  &__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+  &__text {
+    font-size: 20px;
+    line-height: 32px;
+    opacity: 0.6;
+  }
+}
+.hotels {
+  &__location {
+    max-height: 250px;
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 35%;
+  }
+  &__guests {
+    margin-bottom: 10px;
+  }
+  &__btn-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+  }
+  &__land {
+    opacity: 0.6;
+  }
+  &__button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: $colorRed;
+    color: $colorWhite;
+    cursor: pointer;
+    &:hover {
+      background: #ff1504;
+    }
+  }
+}

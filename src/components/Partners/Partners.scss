@@ -1,0 +1,10 @@
+.partners {
+  padding: 100px 0;
+  &__wrapper {
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+}

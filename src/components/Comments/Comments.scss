@@ -1,0 +1,33 @@
+$colorComments: #555555;
+.comments {
+    &__slider {
+    }
+    &__slide {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        &-title {
+            font-size: 16px;
+            line-height: 32px;
+            margin-bottom: 22px;
+        }
+        &-text {
+            font-size: 30px;
+            line-height: 36px;
+            opacity: 0.6;
+        }
+        &-box {
+            text-align: center;
+            max-width: 50%;
+            color: $colorComments;
+            padding: 15px;
+            & i {
+                font-size: 30px;
+            }
+        }
+    }
+    &__image {
+        width: 100%;
+    }
+}

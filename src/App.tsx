@@ -1,24 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Blog from './components/Blog/Blog';
+import Comments from './components/Comments/Comments';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footex';
+import Header from './components/header/Header';
+import Hotels from './components/Hotels/Hotels';
+import HotelStar from './components/HotelStar/HotelStar';
+import Location from './components/Location/Location'
+import Partners from './components/Partners/Partners';
+import Service from './components/Service/Service';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Location />
+      <Blog/>
+
+      <Hotels/>
+      <Service />
+      <Partners/>
+      <Comments/>
+      <HotelStar/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

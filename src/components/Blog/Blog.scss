@@ -1,0 +1,49 @@
+.blog {
+  padding: 140px 0 0;
+}
+.wrapper> .title,
+.wrapper> .text {
+  text-align: center;
+}
+.container {
+  align-items: flex-start;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 32px 0px 0px;
+  max-width: 50%;
+  &:last-child {
+    margin-right: 0;
+  }
+  & img {
+    align-items: flex-start;
+    margin-bottom: 35px;
+  }
+  &__title {
+    font-size: 20px;
+    line-height: 160%;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  &__text {
+    font-size: 18px;
+    line-height: 160%;
+    font-weight: 400;
+    opacity: 0.6;
+    margin-bottom: 10px;
+  }
+  &__label {
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 600;
+  }
+  &__item {
+    padding-right: 10px;
+    align-items: center;
+    & img {
+      margin-bottom: 30px;
+      margin-right: 27px;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+$colorWhite: white;
+.header{
+  width: 100vw;
+  height: 100vh;
+  background: url("../../img/banner.jpg") no-repeat center center, rgba(0,0,0, 0.3);
+  background-size: cover;
+  color: $colorWhite;
+}
+.navbar {
+  padding-top: 35px;
+  margin-bottom: 200px;
+  &__logo {
+    font-size: 40px;
+    line-height: 150%;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: $colorWhite;
+  }
+  &__item {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    margin-right: 50px;
+    & a {
+      color: $colorWhite;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+.header {
+  &__title {
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 120%;
+    margin-bottom: 30px;
+  }
+  &__text {
+    font-size: 18px;
+    line-height: 160%;
+    opacity: 0.6;
+    margin-bottom: 40px;
+  }
+
+}
