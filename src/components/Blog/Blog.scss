@@ -1,5 +1,17 @@
 .blog {
   padding: 140px 0 0;
+  &__box{
+    & a {
+      display: block;
+      margin: 0px 32px 0px 0px;
+      max-width: 50%;
+      &:hover {
+        -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+      }
+    }
+  }
 }
 .wrapper> .title,
 .wrapper> .text {
@@ -11,10 +23,20 @@
 .box {
   display: flex;
   flex-direction: column;
-  margin: 0px 32px 0px 0px;
-  max-width: 50%;
   &:last-child {
     margin-right: 0;
+  }
+  
+  & a {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-right: 0;
+    &:hover {
+      -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+      -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+      box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    }
   }
   & img {
     align-items: flex-start;
@@ -40,10 +62,14 @@
   }
   &__item {
     padding-right: 10px;
-    align-items: center;
     & img {
       margin-bottom: 30px;
       margin-right: 27px;
+    }
+    &-info {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
     }
   }
 }

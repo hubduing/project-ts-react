@@ -11,11 +11,11 @@ const Partners: React.FC = () => {
     <div>
       <div className="partners">
         <div className="partners__wrapper">
-          <img src={Partners1} alt="Partners1"/>
-          <img src={Partners2} alt="Partners2"/>
-          <img src={Partners3} alt="Partners3"/>
-          <img src={Partners4} alt="Partners4"/>
-          <img src={Partners5} alt="Partners5"/>
+          <a href="#!"><img src={Partners1} alt="Partners1"/></a>
+          <a href="#!"><img src={Partners2} alt="Partners2"/></a>
+          <a href="#!"><img src={Partners3} alt="Partners3"/></a>
+          <a href="#!"><img src={Partners4} alt="Partners4"/></a>
+          <a href="#!"><img src={Partners5} alt="Partners5"/></a>
         </div>
       </div>
     </div>

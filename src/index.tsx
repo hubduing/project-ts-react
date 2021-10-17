@@ -3,10 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Provider} from 'react-redux'
+import {createStore} from 'redux'
+import handleCaroucel from './reducer/Reducer';
+
+// create store redux
+const store = createStore(handleCaroucel)
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

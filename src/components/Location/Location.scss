@@ -16,7 +16,9 @@
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     &:hover {
-      box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.08);
+      -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+      -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+      box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     }
     &:last-child {
       margin-right: 0;

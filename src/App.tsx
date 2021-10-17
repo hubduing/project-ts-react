@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import Blog from './components/Blog/Blog';
-import Comments from './components/Comments/Comments';
+import Corousel from './components/Comments/Comments';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footex';
 import Header from './components/header/Header';
@@ -21,7 +21,7 @@ const App: React.FC = () => {
       <Hotels/>
       <Service />
       <Partners/>
-      <Comments/>
+      <Corousel/>
       <HotelStar/>
       <Contact/>
       <Footer/>
