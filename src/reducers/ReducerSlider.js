@@ -1,4 +1,4 @@
-const handleCaroucel = (state = 0 , action) => {
+const slider = (state = 0 , action) => {
   const length = 3;
 
   switch (action.type){
@@ -10,5 +10,4 @@ const handleCaroucel = (state = 0 , action) => {
       return state;
   }
 };
-
-export default handleCaroucel;
+export default slider;

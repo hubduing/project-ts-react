@@ -1,22 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+import {Provider} from 'react-redux'
+
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {Provider} from 'react-redux'
-import {createStore} from 'redux'
-import handleCaroucel from './reducer/Reducer';
+
 
 // create store redux
-const store = createStore(handleCaroucel)
+import store from './store/store'
+console.log(typeof store, store)
 
-
-ReactDOM.render(
-  <React.StrictMode>
+render(
     <Provider store={store}>
       <App />
-    </Provider>
-  </React.StrictMode>,
+    </Provider>,
   document.getElementById('root')
 );
 

@@ -23,21 +23,20 @@ $colorWhite: white;
     max-width: 35%;
   }
   &__guests {
+    display: flex;
     margin-bottom: 10px;
+    align-items: center;
   }
   &__btn-box {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 64px;
   }
   &__land {
     opacity: 0.6;
   }
   &__button {
-    padding: 10px 15px;
-    border-radius: 10px;
-    border: 1px solid #000;
+    padding: 1px 10px;
+    border-radius: 5px;
+
     background: $colorRed;
     color: $colorWhite;
     cursor: pointer;

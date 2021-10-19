@@ -8,7 +8,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { setIncrease, setDecrease } from "../../actions/Actions";
 
 const Corousel = () => {
-  const position = useSelector((state) => state);
+  const position = useSelector((state) => state.slider);
   const dispath = useDispatch();
 
   const next = () => dispath(setIncrease(position + 1));

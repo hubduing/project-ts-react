@@ -16,12 +16,12 @@ const Blog: React.FC = () => {
           <div className="container blog__box">
             
             <a href="#!">
-            <div className="box">
-              <img src={image1} alt="Banff National Park"/>
-              <div className="box__title">Banff National Park</div>
-              <div className="box__text">Banff National Park lies in the heart of the majestic Rocky Mountains in the province of Alberta, and showcases some of Canada's most beautiful scenery. Turquoise-colored lakes, snow-capped peaks, and glaciers are all easily accessible</div>
-              <div className="box__label">@thomasalva_adison</div>
-            </div>
+              <div className="box">
+                <img src={image1} alt="Banff National Park"/>
+                <div className="box__title">Banff National Park</div>
+                <div className="box__text">Banff National Park lies in the heart of the majestic Rocky Mountains in the province of Alberta, and showcases some of Canada's most beautiful scenery. Turquoise-colored lakes, snow-capped peaks, and glaciers are all easily accessible</div>
+                <div className="box__label">@thomasalva_adison</div>
+              </div>
             </a>
             <div className="box">
               <a href="#!">

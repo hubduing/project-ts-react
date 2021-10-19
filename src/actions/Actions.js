@@ -10,3 +10,13 @@ export const setDecrease = (num) => {
     payload: num
   };
 };
+export const setIncrement = () => {
+  return {
+    type: "INCREMENT",
+  };
+};
+export const setDecrement = () => {
+  return {
+    type: "DECREMENT",
+  };
+};
