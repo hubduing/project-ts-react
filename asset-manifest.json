@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/hubduing/project-ts-react/static/css/main.b53c3c65.chunk.css",
+    "main.js": "/hubduing/project-ts-react/static/js/main.09d79b18.chunk.js",
+    "main.js.map": "/hubduing/project-ts-react/static/js/main.09d79b18.chunk.js.map",
+    "runtime-main.js": "/hubduing/project-ts-react/static/js/runtime-main.dd21503b.js",
+    "runtime-main.js.map": "/hubduing/project-ts-react/static/js/runtime-main.dd21503b.js.map",
+    "static/js/2.1d0ccd87.chunk.js": "/hubduing/project-ts-react/static/js/2.1d0ccd87.chunk.js",
+    "static/js/2.1d0ccd87.chunk.js.map": "/hubduing/project-ts-react/static/js/2.1d0ccd87.chunk.js.map",
+    "static/js/3.9611fe2e.chunk.js": "/hubduing/project-ts-react/static/js/3.9611fe2e.chunk.js",
+    "static/js/3.9611fe2e.chunk.js.map": "/hubduing/project-ts-react/static/js/3.9611fe2e.chunk.js.map",
+    "index.html": "/hubduing/project-ts-react/index.html",
+    "static/css/main.b53c3c65.chunk.css.map": "/hubduing/project-ts-react/static/css/main.b53c3c65.chunk.css.map",
+    "static/js/2.1d0ccd87.chunk.js.LICENSE.txt": "/hubduing/project-ts-react/static/js/2.1d0ccd87.chunk.js.LICENSE.txt",
+    "static/media/Header.scss": "/hubduing/project-ts-react/static/media/banner.3f915126.jpg",
+    "static/media/comment-image-1.4ebafb66.jpg": "/hubduing/project-ts-react/static/media/comment-image-1.4ebafb66.jpg",
+    "static/media/comment-image-2.2b6841e0.jpg": "/hubduing/project-ts-react/static/media/comment-image-2.2b6841e0.jpg",
+    "static/media/comment-image-3.13941480.jpg": "/hubduing/project-ts-react/static/media/comment-image-3.13941480.jpg",
+    "static/media/hotels-1.9284024f.jpg": "/hubduing/project-ts-react/static/media/hotels-1.9284024f.jpg",
+    "static/media/hotels-2.bdb57639.jpg": "/hubduing/project-ts-react/static/media/hotels-2.bdb57639.jpg",
+    "static/media/hotels-3.05be79fd.jpg": "/hubduing/project-ts-react/static/media/hotels-3.05be79fd.jpg",
+    "static/media/hotels-4.c1d0b03e.jpg": "/hubduing/project-ts-react/static/media/hotels-4.c1d0b03e.jpg",
+    "static/media/hotels-5.f2218f9b.jpg": "/hubduing/project-ts-react/static/media/hotels-5.f2218f9b.jpg",
+    "static/media/land1.5adbfdbc.jpg": "/hubduing/project-ts-react/static/media/land1.5adbfdbc.jpg",
+    "static/media/land2.5d96dfe3.jpg": "/hubduing/project-ts-react/static/media/land2.5d96dfe3.jpg",
+    "static/media/land3.8a01ff91.jpg": "/hubduing/project-ts-react/static/media/land3.8a01ff91.jpg",
+    "static/media/news-1.4941b9aa.jpg": "/hubduing/project-ts-react/static/media/news-1.4941b9aa.jpg",
+    "static/media/news-2.54df97ff.jpg": "/hubduing/project-ts-react/static/media/news-2.54df97ff.jpg",
+    "static/media/news-3.44d0689d.jpg": "/hubduing/project-ts-react/static/media/news-3.44d0689d.jpg",
+    "static/media/news-4.de4e6f89.jpg": "/hubduing/project-ts-react/static/media/news-4.de4e6f89.jpg",
+    "static/media/star-1.f3e79d12.jpg": "/hubduing/project-ts-react/static/media/star-1.f3e79d12.jpg",
+    "static/media/star-2.3aba8438.jpg": "/hubduing/project-ts-react/static/media/star-2.3aba8438.jpg",
+    "static/media/star-3.fff96007.jpg": "/hubduing/project-ts-react/static/media/star-3.fff96007.jpg",
+    "static/media/Weather.scss": "/hubduing/project-ts-react/static/media/weather.8317561b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd21503b.js",
+    "static/js/2.1d0ccd87.chunk.js",
+    "static/css/main.b53c3c65.chunk.css",
+    "static/js/main.09d79b18.chunk.js"
+  ]
+}
