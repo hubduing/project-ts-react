@@ -10,6 +10,7 @@ import HotelStar from './components/HotelStar/HotelStar';
 import Location from './components/Location/Location'
 import Partners from './components/Partners/Partners';
 import Service from './components/Service/Service';
+import Weather from './components/Weather/Weather';
 
 const App: React.FC = () => {
   return (
@@ -17,7 +18,7 @@ const App: React.FC = () => {
       <Header/>
       <Location />
       <Blog/>
-
+      <Weather/>
       <Hotels/>
       <Service />
       <Partners/>

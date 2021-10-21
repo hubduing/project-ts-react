@@ -1,0 +1,45 @@
+$colorWhite: white;
+.weather {
+    background-image: url('../../img/weather.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: $colorWhite;
+    
+}
+.dgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: flex-start;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 100px 20px 20px;
+}
+.weather-box {
+    max-width: 50%;
+}
+.box-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    & label {
+        font-size: 18px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    & input {
+        flex: 1;
+        padding: 5px;
+        border-radius: 5px;
+        background: inherit;
+        color: $colorWhite;
+    }
+    &__city {
+        width: 100%;
+    }
+    &__country {
+        width: 100%;
+    }
+}
