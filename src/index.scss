@@ -8,6 +8,9 @@ $colorBlue: #3771C8;
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;

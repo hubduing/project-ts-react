@@ -1,10 +1,11 @@
 $colorWhite: white;
 .weather {
+    width: 100%;
     background-image: url('../../img/weather.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     color: $colorWhite;
-    
 }
 .dgrid {
     display: grid;
@@ -17,6 +18,9 @@ $colorWhite: white;
 }
 .weather-box {
     max-width: 50%;
+    & button {
+        cursor: pointer;
+    }
 }
 .box-input {
     display: flex;
@@ -33,7 +37,7 @@ $colorWhite: white;
         flex: 1;
         padding: 5px;
         border-radius: 5px;
-        background: inherit;
+        background: #444;
         color: $colorWhite;
     }
     &__city {

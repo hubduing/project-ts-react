@@ -33,7 +33,7 @@ const Corousel = () => {
   ];
 
   return (
-    <section className="comments">
+    <section className="comments" id="comments">
       <div className="wrapper">
         <div className="comments__slider">
           <div className="arrow" onClick={prev}>

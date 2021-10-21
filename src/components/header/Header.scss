@@ -8,9 +8,8 @@ $colorWhite: white;
 }
 .navbar {
   padding-top: 35px;
-  margin-bottom: 200px;
   &__logo {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 150%;
     font-weight: 600;
     letter-spacing: 0.06em;
@@ -29,6 +28,30 @@ $colorWhite: white;
     }
   }
 }
+.nav__fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-top: 0;
+  background: darkblue;
+  animation-name: show__nav;
+  animation-duration: 1s;
+}
+@keyframes show__nav {
+  0% {
+    opacity: 0;
+    top: -60px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+.banner {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
 .header {
   &__title {
     font-weight: bold;
@@ -42,5 +65,4 @@ $colorWhite: white;
     opacity: 0.6;
     margin-bottom: 40px;
   }
-
 }

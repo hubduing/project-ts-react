@@ -9,7 +9,6 @@ import reportWebVitals from './reportWebVitals';
 
 // create store redux
 import store from './store/store'
-console.log(typeof store, store)
 
 render(
     <Provider store={store}>

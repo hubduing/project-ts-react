@@ -19,7 +19,7 @@ export const Weather = () => {
   const getWeatherData = async(city, country) => {
     await axios({
       method: "GET",
-      url: `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${apiKey}`
+      url: `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${apiKey}`
     }).then((res) => {
       setTemp(res.data.main.temp - 273.15)
       setIcon(res.data.weather[0].icon)
@@ -32,12 +32,12 @@ export const Weather = () => {
       console.log(err)
     })
   }
-
   return (
     <div className="weather">
       
       <div className="wrapper dgrid">
         <div className="weather-box">
+          <h2>Узнайте погоду в пункте назначения</h2>
           <div className="box-input">
             <label htmlFor="box-input__city">Выберите город &nbsp;</label>
             <input id="box-input__city" type="text" value={city} onChange={(e) => setCity(e.target.value)}
@@ -51,9 +51,8 @@ export const Weather = () => {
           <button 
             onClick={() => getWeatherData(city, country)} 
             className="btn" 
-            style={{backgroundColor: "#51456a", fontWeight: "bold", fontSize: 20, border:0}}
             >
-              Get weather
+              Узнать погоду
           </button>
         </div>
         <div className="weather-box">
