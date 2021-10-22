@@ -6,7 +6,6 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-
 // create store redux
 import store from './store/store'
 

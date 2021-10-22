@@ -1,24 +1,24 @@
 .contact {
-    padding: 140px 0;
-    &__title {
-        font-weight: 600;
-        font-size: 40px;
-        line-height: 50px;
-        color: black;
-        margin-bottom: 20px;
-    }
-    &__text {
-        font-size: 16px;
-        line-height: 28px;
-        color: #555555;
-    }
-    &__box {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 50%;
-    }
-    & i {
-        font-size: 150px;
-        align-self: center;
-    }
+  padding: 140px 0;
+  &__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 20px;
+    color: #555555;
+  }
+  &__box {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+  }
+  & i {
+    font-size: 150px;
+    align-self: center;
+  }
 }

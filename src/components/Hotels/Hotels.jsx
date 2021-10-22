@@ -12,7 +12,7 @@ export default function Hotels() {
   const dec = () => dispath(setDecrement());
   return (
     <div>
-      <section className="hotels ptb">
+      <section className="hotels ptb" id="hotels">
         <div className="wrapper">
           <div className="hotels__box container">
             <div className="info">

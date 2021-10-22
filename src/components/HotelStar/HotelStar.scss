@@ -45,6 +45,9 @@ $colorComments: #555555;
     }
 }
 .hotels {
+    &__link {
+        display: contents;
+    }
     &__cards {
         display: flex;
         flex-wrap: wrap;
@@ -107,4 +110,7 @@ $colorComments: #555555;
         background: $colorBlue;
         border-radius: 4px;
     }
+}
+.stars {
+    padding-bottom: 100px;
 }

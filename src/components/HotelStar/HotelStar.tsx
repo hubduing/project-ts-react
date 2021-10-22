@@ -21,33 +21,39 @@ const HotelStar: React.FC = () => {
                     <div className="view__all">Показать всё</div>
                 </div>
                 <div className="hotels__cards container">
-                    <div className="hotels__card">
-                        <img src={Star1} alt="Star1" />
-                        <h4>Плавательный бассейн и роскошный пляж ...</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <div className="details">
-                            <p><b>$250</b> /Ночь</p>
-                            <a href="#!" className="details__link">Подробнее</a>
+                    <a href="#!" className="hotels__link">
+                        <div className="hotels__card">
+                            <img src={Star1} alt="Star1" />
+                            <h4>Плавательный бассейн и роскошный пляж ...</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div className="details">
+                                <p><b>$250</b> /Ночь</p>
+                                <a href="#!" className="details__link">Подробнее</a>
+                            </div>
                         </div>
-                    </div>
-                    <div className="hotels__card">
-                        <img src={Star2} alt="Star2" />
-                        <h4>Раскошные виды с высоты птичьего полета</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <div className="details">
-                            <p><b>$250</b> /Ночь</p>
-                            <a href="#!" className="details__link">Подробнее</a>
+                    </a>
+                    <a href="#!" className="hotels__link">
+                        <div className="hotels__card">
+                            <img src={Star2} alt="Star2" />
+                            <h4>Раскошные виды с высоты птичьего полета</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div className="details">
+                                <p><b>$250</b> /Ночь</p>
+                                <a href="#!" className="details__link">Подробнее</a>
+                            </div>
                         </div>
-                    </div>
-                    <div className="hotels__card">
-                        <img src={Star3} alt="Star3" />
-                        <h4>Теплый ветер и шикарные пляжи...</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <div className="details">
-                            <p><b>$250</b> /Ночь</p>
-                            <a href="#!" className="details__link">Подробнее</a>
+                    </a>
+                    <a href="#!" className="hotels__link">
+                        <div className="hotels__card">
+                            <img src={Star3} alt="Star3" />
+                            <h4>Теплый ветер и шикарные пляжи...</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div className="details">
+                                <p><b>$250</b> /Ночь</p>
+                                <a href="#!" className="details__link">Подробнее</a>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>

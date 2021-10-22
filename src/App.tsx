@@ -11,6 +11,7 @@ import Location from './components/Location/Location'
 import Partners from './components/Partners/Partners';
 import Service from './components/Service/Service';
 import Weather from './components/Weather/Weather';
+import Form from './components/Form/Form'
 
 const App: React.FC = () => {
   return (
@@ -24,6 +25,9 @@ const App: React.FC = () => {
       <Partners/>
       <Corousel/>
       <HotelStar/>
+
+      <Form/>
+      
       <Contact/>
       <Footer/>
     </div>

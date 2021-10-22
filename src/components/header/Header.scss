@@ -7,7 +7,7 @@ $colorWhite: white;
   color: $colorWhite;
 }
 .navbar {
-  padding-top: 35px;
+  padding-top: 25px;
   &__logo {
     font-size: 35px;
     line-height: 150%;
@@ -23,19 +23,22 @@ $colorWhite: white;
     & a {
       color: $colorWhite;
     }
-    &:last-child {
-      margin-right: 0;
-    }
   }
 }
 .nav__fixed {
   position: fixed;
+  width: 100vw;
   left: 0;
   top: 0;
-  padding-top: 0;
-  background: darkblue;
+  padding: 5px 0;
+  background: rgb(80, 80, 231);
   animation-name: show__nav;
   animation-duration: 1s;
+  align-items: center;
+  z-index: 1000;
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.52);
+  -moz-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.52);
+  box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.52);
 }
 @keyframes show__nav {
   0% {
@@ -48,8 +51,8 @@ $colorWhite: white;
   }
 }
 .banner {
-  padding-top: 15%;
-  padding-bottom: 15%;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
 }
 
 .header {
@@ -65,4 +68,7 @@ $colorWhite: white;
     opacity: 0.6;
     margin-bottom: 40px;
   }
+}
+.t-center {
+  align-items: center;
 }

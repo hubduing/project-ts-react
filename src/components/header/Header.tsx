@@ -1,6 +1,7 @@
 import React from "react";
 import Burger from "./Burger";
 import "./Header.scss";
+import '../../scroll'
 
 const Header: React.FC = () => {
   return (
@@ -8,19 +9,19 @@ const Header: React.FC = () => {
       <section className="header">
         <nav className="navbar">
           <div className="wrapper">
-            <div className="container">
-              <a className="navbar__logo" href="#/">
+            <div className="container t-center">
+              <a className="navbar__logo" href="#">
                 TRAVELAND
               </a>
-              <ul className="navbar__items container">
-                <li className="navbar__item">
-                  <a href="#/">Домашняя</a>
-                </li>
+              <ul className="container navbar__items">
                 <li className="navbar__item">
                   <a href="#location">Популяные места</a>
                 </li>
                 <li className="navbar__item">
                   <a href="#blog">Блог</a>
+                </li>
+                <li className="navbar__item">
+                  <a href="#hotels">Отели</a>
                 </li>
                 <li className="navbar__item">
                   <a href="#comments">О нас</a>
@@ -29,10 +30,11 @@ const Header: React.FC = () => {
                   <a href="#contact">Контакты</a>
                 </li>
               </ul>
-              <Burger />
+              
               <a className="btn" href="#!" type="navbar__btn">
                 Регистрация
               </a>
+              <Burger />
             </div>
           </div>
         </nav>
