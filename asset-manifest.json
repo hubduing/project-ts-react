@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/project-ts-react/static/css/main.81ed1c6a.chunk.css",
-    "main.js": "/project-ts-react/static/js/main.e083f1e5.chunk.js",
-    "main.js.map": "/project-ts-react/static/js/main.e083f1e5.chunk.js.map",
-    "runtime-main.js": "/project-ts-react/static/js/runtime-main.44ba8d33.js",
-    "runtime-main.js.map": "/project-ts-react/static/js/runtime-main.44ba8d33.js.map",
-    "static/js/2.1d0ccd87.chunk.js": "/project-ts-react/static/js/2.1d0ccd87.chunk.js",
-    "static/js/2.1d0ccd87.chunk.js.map": "/project-ts-react/static/js/2.1d0ccd87.chunk.js.map",
-    "static/js/3.9611fe2e.chunk.js": "/project-ts-react/static/js/3.9611fe2e.chunk.js",
-    "static/js/3.9611fe2e.chunk.js.map": "/project-ts-react/static/js/3.9611fe2e.chunk.js.map",
+    "main.css": "/project-ts-react/static/css/main.e61fe1f7.chunk.css",
+    "main.js": "/project-ts-react/static/js/main.10f29f80.chunk.js",
+    "main.js.map": "/project-ts-react/static/js/main.10f29f80.chunk.js.map",
+    "runtime-main.js": "/project-ts-react/static/js/runtime-main.ab915099.js",
+    "runtime-main.js.map": "/project-ts-react/static/js/runtime-main.ab915099.js.map",
+    "static/js/2.3459ac79.chunk.js": "/project-ts-react/static/js/2.3459ac79.chunk.js",
+    "static/js/2.3459ac79.chunk.js.map": "/project-ts-react/static/js/2.3459ac79.chunk.js.map",
+    "static/js/3.9bee0e0c.chunk.js": "/project-ts-react/static/js/3.9bee0e0c.chunk.js",
+    "static/js/3.9bee0e0c.chunk.js.map": "/project-ts-react/static/js/3.9bee0e0c.chunk.js.map",
     "index.html": "/project-ts-react/index.html",
-    "static/css/main.81ed1c6a.chunk.css.map": "/project-ts-react/static/css/main.81ed1c6a.chunk.css.map",
-    "static/js/2.1d0ccd87.chunk.js.LICENSE.txt": "/project-ts-react/static/js/2.1d0ccd87.chunk.js.LICENSE.txt",
+    "static/css/main.e61fe1f7.chunk.css.map": "/project-ts-react/static/css/main.e61fe1f7.chunk.css.map",
+    "static/js/2.3459ac79.chunk.js.LICENSE.txt": "/project-ts-react/static/js/2.3459ac79.chunk.js.LICENSE.txt",
     "static/media/Header.scss": "/project-ts-react/static/media/banner.3f915126.jpg",
     "static/media/comment-image-1.4ebafb66.jpg": "/project-ts-react/static/media/comment-image-1.4ebafb66.jpg",
     "static/media/comment-image-2.2b6841e0.jpg": "/project-ts-react/static/media/comment-image-2.2b6841e0.jpg",
@@ -34,9 +34,9 @@
     "static/media/Weather.scss": "/project-ts-react/static/media/weather.8317561b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.44ba8d33.js",
-    "static/js/2.1d0ccd87.chunk.js",
-    "static/css/main.81ed1c6a.chunk.css",
-    "static/js/main.e083f1e5.chunk.js"
+    "static/js/runtime-main.ab915099.js",
+    "static/js/2.3459ac79.chunk.js",
+    "static/css/main.e61fe1f7.chunk.css",
+    "static/js/main.10f29f80.chunk.js"
   ]
 }
