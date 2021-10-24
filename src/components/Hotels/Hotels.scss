@@ -45,3 +45,20 @@ $colorWhite: white;
     }
   }
 }
+@media (max-width: 1000px){
+  .hotels__box.container {
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+  .info {
+    max-width: 100%;
+  }
+  .hotels__location {
+    max-width: 100%;
+  }
+  .hotels__guests {
+    margin: 0 auto;
+    justify-content: center;
+  }
+}

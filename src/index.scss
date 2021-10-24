@@ -38,6 +38,7 @@ ul {
 }
 .wrapper {
   max-width: 1140px;
+  padding: 0 10px;
   margin: 0 auto;
 }
 .btn {
@@ -46,7 +47,7 @@ ul {
   line-height: 150%;
   color: $colorWhite;
   padding: 14px 35px 13px 36px;
-  background: #C9453B;
+  background: $colorRed;
   border-radius: 5px;
   border: none;
 }

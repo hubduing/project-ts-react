@@ -3,9 +3,10 @@
   &__wrapper {
     max-width: 1110px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto 10px;
     & a:hover {
       opacity: 0.6;
     }

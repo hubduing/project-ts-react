@@ -8,7 +8,7 @@ const Service: React.FC = () => {
         <div className="wrapper">
           <h2 className="title">Услуги и сервис</h2>
           <p className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
-          <div className="service__items container">
+          <div className="container service__items">
             <div className="container service__item">
               <i className="fas fa-desktop"></i>
               <h2 className="service__item-title">Частное рабочее место</h2>

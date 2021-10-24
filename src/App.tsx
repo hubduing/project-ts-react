@@ -26,9 +26,10 @@ const App: React.FC = () => {
       <Corousel/>
       <HotelStar/>
 
-      <Form/>
-      
-      <Contact/>
+      <div className="contacts">
+        <Form/>
+        <Contact/>
+      </div>
       <Footer/>
     </div>
   );

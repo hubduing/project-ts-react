@@ -20,7 +20,7 @@ const HotelStar: React.FC = () => {
                     </div>
                     <div className="view__all">Показать всё</div>
                 </div>
-                <div className="hotels__cards container">
+                <div className="container hotels__cards">
                     <a href="#!" className="hotels__link">
                         <div className="hotels__card">
                             <img src={Star1} alt="Star1" />

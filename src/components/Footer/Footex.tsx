@@ -4,9 +4,9 @@ import './Footer.scss';
 const Footer: React.FC = () => {
     return (
         <div className="footer">
-            <div className="wrapper flex">
+            <div className="wrapper footer__container">
                 <div className="footer__box">
-                    <h3 className="footer__title">Trevland</h3>
+                    <a href="#"><h3 className="footer__title">Trevland</h3></a>
                     <a href="#!" className="footer__text">Contact us</a>
                     <a href="#!" className="footer__text">@shovasatkhira88.com</a>
                     <div className="socials">

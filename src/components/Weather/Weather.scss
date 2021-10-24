@@ -1,7 +1,7 @@
 $colorWhite: white;
 .weather {
     width: 100%;
-    background-image: url('../../img/weather.jpg');
+    background-image: url("../../img/weather.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,5 +45,21 @@ $colorWhite: white;
     }
     &__country {
         width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .dgrid {
+        grid-template-columns: 1fr;
+        
+    }
+    .weather-box {
+        max-width: 90%;
+        & data__container {
+            text-align: center;
+            justify-content: center;
+            align-self: center;
+            margin: 0 auto;
+        }
     }
 }

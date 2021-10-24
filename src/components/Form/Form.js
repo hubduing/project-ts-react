@@ -118,35 +118,35 @@ const SignupForm = () => {
         <h1>Subscribe!</h1>
         <Form>
           <MyTextInput
-            label="First Name"
+            label="Имя"
             name="firstName"
             type="text"
             placeholder="Jane"
           />
           <MyTextInput
-            label="Last Name"
+            label="Фамилия"
             name="lastName"
             type="text"
             placeholder="Doe"
           />
           <MyTextInput
-            label="Email Address"
+            label="Email адрес"
             name="email"
             type="email"
             placeholder="jane@formik.com"
           />
-          <MySelect label="Job Type" name="jobType">
-            <option value="">Select a job type</option>
+          <MySelect label="Должность" name="jobType">
+            <option value="">Выбрать должность</option>
             <option value="designer">Designer</option>
             <option value="development">Developer</option>
             <option value="product">Product Manager</option>
-            <option value="other">Other</option>
+            <option value="other">Другая</option>
           </MySelect>
           <MyCheckbox name="acceptedTerms">
             I accept the terms and conditions
           </MyCheckbox>
 
-          <button type="submit">Submit</button>
+          <button type="submit">Подписаться</button>
         </Form>
         </div>
       </Formik>

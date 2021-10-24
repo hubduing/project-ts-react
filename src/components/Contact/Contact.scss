@@ -1,5 +1,4 @@
 .contact {
-  padding: 140px 0;
   &__title {
     font-weight: 600;
     font-size: 24px;
@@ -18,7 +17,40 @@
     max-width: 50%;
   }
   & i {
-    font-size: 150px;
+    display: block;
+    font-size: 50px;
     align-self: center;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+@media (max-width: 950px){
+  .contact {
+    margin-bottom: 50px;
+    &__box {
+      display: block;
+      padding-left: 10px;
+      padding-right: 10px;
+      justify-content: space-between;
+      max-width: 100%;
+      text-align: center;
+    }
+    &__title {
+      font-size: 18px;
+      line-height: 20px;
+    }
+    & i {
+      display: none;
+    }
+  }
+}
+@media (max-width: 500px){
+  
+  .contact__container {
+    display: block;
+    justify-content: center;
   }
 }

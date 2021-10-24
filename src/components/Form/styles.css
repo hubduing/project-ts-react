@@ -18,6 +18,19 @@ button[type="submit"] {
   margin-top: 1rem;
 }
 .center {
-  max-width: 50%;
   margin: 0 auto;
+}
+.text-input {
+  width: 100%;
+}
+@media (max-width: 660px){
+    .text-input {
+      width: 300px;
+    }
+}
+@media (max-width: 450px){
+    .center {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 }

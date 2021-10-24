@@ -1,8 +1,11 @@
 $colorMain:#000;
-.flex {
+.footer__container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .footer {
     padding-bottom: 25px;
@@ -12,7 +15,7 @@ $colorMain:#000;
             color: $colorMain;
             font-size: 16px;
             line-height: 150%;
-            margin: 0 0 20px 0;
+            margin-right: 20px;
             letter-spacing: 0.06em;
             &:hover, 
             &:active {
@@ -45,5 +48,14 @@ $colorMain:#000;
         &:hover, &:active {
             opacity: 0.6;
         }
+    }
+}
+@media (max-width: 660px){
+    .footer__container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .socials {
+        justify-content: center;
     }
 }

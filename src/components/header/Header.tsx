@@ -1,5 +1,5 @@
 import React from "react";
-import Burger from "./Burger";
+import Burger from "../Burger/Burger";
 import "./Header.scss";
 import '../../scroll'
 
@@ -7,6 +7,7 @@ const Header: React.FC = () => {
   return (
     <React.Fragment>
       <section className="header">
+      <Burger />
         <nav className="navbar">
           <div className="wrapper">
             <div className="container t-center">
@@ -31,10 +32,10 @@ const Header: React.FC = () => {
                 </li>
               </ul>
               
-              <a className="btn" href="#!" type="navbar__btn">
-                Регистрация
-              </a>
-              <Burger />
+              <button className="btn" href="#!" type="navbar__btn">
+                Войти
+              </button>
+              
             </div>
           </div>
         </nav>

@@ -58,7 +58,7 @@ export const Weather = () => {
         <div className="weather-box">
           
         {showMyComponent ? 
-        (<div className="data_container p-4 my-5" >
+        (<div className="data__container p-4 my-5" >
           <h1>{city}, {country}</h1>
 
           <div className="my-2">
