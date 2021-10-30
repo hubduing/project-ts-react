@@ -8,7 +8,11 @@ $colorMain:#000;
     padding-right: 10px;
 }
 .footer {
+    padding-top: 45px;
     padding-bottom: 25px;
+    &__text {
+        margin-bottom: 10px;
+    }
     &__box {
         & a {
             display: block;

@@ -4,6 +4,11 @@ import "./Header.scss";
 import '../../scroll'
 
 const Header: React.FC = () => {
+
+  const join = () => {
+    // add function join
+  }
+
   return (
     <React.Fragment>
       <section className="header">
@@ -32,9 +37,9 @@ const Header: React.FC = () => {
                 </li>
               </ul>
               
-              <button className="btn" href="#!" type="navbar__btn">
+              <a className="btn navbar__btn" href="#!" onClick={join}>
                 Войти
-              </button>
+              </a>
               
             </div>
           </div>

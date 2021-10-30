@@ -15,6 +15,8 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   color: $colorMain;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 a {
   color: $colorMain;

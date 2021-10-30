@@ -4,7 +4,7 @@ import "./Subscribe.scss";
 import * as Yup from 'yup';
 
 
-const SignupForm: React.FC = () => {
+const SignupForm = () => {
   // Pass the useFormik() hook initial form values and a submit function that will
   // be called when the form is submitted
   const formik = useFormik({

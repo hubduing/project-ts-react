@@ -78,7 +78,10 @@ $colorWhite: white;
 }
 
 @media (max-width: 1140px){
-  .navbar__item {
+  .navbar__items {
+    display: none;
+  }
+  .navbar__btn {
     display: none;
   }
 
